@@ -13,7 +13,7 @@ export const Home = () => {
             <tr className="table-dark">
               <th scope="col">ID</th>
               <th scope="col">Username</th>
-              <th scope="col">email</th>
+              <th scope="col">Email</th>
               <th scope="col">Designation</th>
               <th scope="col">Number</th>
               <th>Actions</th>

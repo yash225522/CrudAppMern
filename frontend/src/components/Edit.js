@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
 
-export const Register = () => {
+export const Edit = () => {
 
   const [ data, setData ] = useState({
     name: "",
@@ -26,7 +26,7 @@ export const Register = () => {
       <NavLink to="/">home</NavLink>
       <div className="row justify-content-center mt-2">
         <div className="col-lg-6">
-          <div className="p-4 bg-warning text-black rounded-3">
+          <div className="p-4 bg-danger text-black rounded-3">
             <form onSubmit={handleSubmit}>
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">
@@ -123,4 +123,4 @@ export const Register = () => {
   );
 };
 
-export default Register;
+export default Edit;
